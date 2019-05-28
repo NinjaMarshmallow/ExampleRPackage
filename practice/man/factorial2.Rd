@@ -13,13 +13,20 @@ factorial2(x)
 the resulting vector of factorialized numbers
 }
 \description{
-Factorial Function
+the factorial2 function returns the the factorial of the given number
 }
 \note{
 This function is vectorized
 }
-\examples{
-factorial2(2) outputs 4
+\section{Quick Reference}{
+
+\preformatted{factorial2(2) outputs 4
 factorial2(4) outputs 24
-factorial2(c(0, 3, 5)) outputs [ 1 6 120 ]
+factorial2(c(0, 3, 5)) outputs [ 1, 6, 120 ]}
+}
+
+\examples{
+factorial2(2)
+factorial2(4)
+factorial2(c(0, 3, 5))
 }

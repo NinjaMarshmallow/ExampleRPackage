@@ -13,13 +13,20 @@ square(x)
 The vector with all elements squared
 }
 \description{
-Square Function
+the square function raises x to the second power
 }
 \note{
 : This function is vectorized
 }
-\examples{
-square(9) outputs 81
+\section{Quick Reference}{
+
+\preformatted{square(9) outputs 81
 square(-7) outputs 49
-square(c(1, 5, 8)) outputs [ 1 25 64 ]
+square(c(1, 5, 8)) outputs [ 1 25 64 ]}
+}
+
+\examples{
+square(9)
+square(-7)
+square(c(1, 5, 8))
 }

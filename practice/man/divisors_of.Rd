@@ -14,13 +14,20 @@ Returns a vector of divisors, must include 1 and the x itself if x was a single 
 Returns a list of vectors if x was a vector of integers
 }
 \description{
-Divisors Of
+The Divisors Of Function calculates the divisors of integers
 }
 \note{
-This function is not exactly vectorized as passing a vector returns a list of vectors
+This function is not exactly vectorized as passing a vector returns a list of vectors.
 }
-\examples{
-divisors_of(12) outputs [ 1, 2, 3, 4, 6, 12 ]
+\section{Quick Reference}{
+
+\preformatted{divisors_of(12) outputs [ 1, 2, 3, 4, 6, 12 ]
 divisors_of(7) outputs  [ 1, 7 ]
-divisors_of(c(10, 14, 5)) outputs list( [ 1, 2, 5, 10], [ 1, 2, 7, 14 ], [ 1, 5 ] )
+divisors_of(c(10, 14, 5)) outputs list( [ 1, 2, 5, 10], [ 1, 2, 7, 14 ], [ 1, 5 ] )}
+}
+
+\examples{
+divisors_of(12)
+divisors_of(7)
+divisors_of(c(10, 14, 5))
 }

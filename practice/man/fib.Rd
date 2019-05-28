@@ -13,13 +13,20 @@ fib(x)
 vector of the fibonacci number of the indeces given
 }
 \description{
-Fibonacci Function
+The fib function calculates the fibonacci number at the given index
 }
 \note{
 This function is vectorized
 }
-\examples{
-fib(2) outputs 1
+\section{Quick Reference}{
+
+\preformatted{fib(2) outputs 1
 fib(4) outputs 3
-fib(c(1, 5, 8)) outputs [ 1 5 21 ]
+fib(c(1, 5, 8)) outputs [ 1, 5, 21 ]}
+}
+
+\examples{
+fib(1)
+fib(2)
+fib(4)
 }

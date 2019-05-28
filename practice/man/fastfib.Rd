@@ -18,8 +18,16 @@ Fast Fibonacci executes in constant time by using a formula instead of recursion
 \note{
 This function is vectorized
 }
+\section{Quick Reference}{
+
+\preformatted{fastfib(2) outputs 1
+fastfib(4) outputs 3
+fastfib(c(1, 5, 8)) outputs [ 1, 5, 21 ]}
+}
+
 \examples{
-fib(2) outputs 1
-fib(4) outputs 3
-fib(c(1, 5, 8)) outputs [ 1 5 21 ]
+fastfib(1)
+fastfib(2)
+fastfib(4)
+fastfib(c(1, 5, 8))
 }
