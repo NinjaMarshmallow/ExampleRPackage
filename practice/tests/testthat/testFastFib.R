@@ -1,0 +1,13 @@
+test_that("Test fastfib Function", {
+  expect_equal(fastfib(1), 1)
+  expect_equal(fastfib(2), 1)
+  expect_equal(fastfib(3), 2)
+  expect_equal(fastfib(4), 3)
+  expect_equal(fastfib(5), 5)
+  expect_equal(fastfib(6), 8)
+  expect_equal(fastfib(7), 13)
+  expect_equal(fastfib(28), 317811)
+  expect_error(fastfib(-1))
+  expect_error(fastfib("String"))
+  expect_error(fastfib(0))
+})

@@ -1,0 +1,15 @@
+Package: practice
+Type: Package
+Title: Practice Package
+Version: 0.1.0
+Author: Jason Klaassen
+Maintainer: Jason Klaassen <jwk@students.calvin.edu>
+Description: A mismash of functions, so I can learn how to export a package correctly in good form
+License: None
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    audio
+Suggests: 
+    testthat
+RoxygenNote: 6.1.1

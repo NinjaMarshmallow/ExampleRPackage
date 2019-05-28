@@ -1,0 +1,11 @@
+test_that("Test Divisors Of Function", {
+  expect_equal(divisors_of(1), c(1))
+  expect_equal(divisors_of(7), c(1, 7))
+  expect_equal(divisors_of(12), c(1, 2, 3, 4, 6, 12))
+  expect_equal(divisors_of(64), c(1, 2, 4, 8, 16, 32, 64))
+  expect_equal(divisors_of(30), c(1, 2, 3, 5, 6, 10, 15, 30))
+  expect_equal(divisors_of(30), c(1, 2, 3, 5, 6, 10, 15, 30))
+  expect_equal(divisors_of(c(1, 30, 10)), list(c(1), c(1, 2, 3, 5, 6, 10, 15, 30), c(1, 2, 5, 10)))
+  expect_error(divisors_of(-1))
+  expect_error(divisors_of("String"))
+})

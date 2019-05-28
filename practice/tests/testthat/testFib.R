@@ -1,0 +1,13 @@
+test_that("Test Fib Function", {
+  expect_equal(fib(1), 1)
+  expect_equal(fib(2), 1)
+  expect_equal(fib(3), 2)
+  expect_equal(fib(4), 3)
+  expect_equal(fib(5), 5)
+  expect_equal(fib(6), 8)
+  expect_equal(fib(7), 13)
+  expect_equal(fib(28), 317811)
+  expect_error(fib(-1))
+  expect_error(fib("String"))
+  expect_error(fib(0))
+})

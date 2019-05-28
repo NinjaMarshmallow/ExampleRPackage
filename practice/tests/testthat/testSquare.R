@@ -1,0 +1,10 @@
+test_that("Test Square Function", {
+  expect_equal(square(10), 100)
+  expect_equal(square(1), 1)
+  expect_equal(square(2), 4)
+  expect_equal(square(-9), 81)
+  expect_equal(square(0), 0)
+  expect_error(square("String"))
+  expect_equal(square(c(1, 2, 3)), c(1, 4, 9))
+  expect_equal(square(c(3, -7, 0)), c(9, 49, 0))
+})
